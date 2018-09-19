@@ -1,0 +1,62 @@
+/* 
+Adds fonts:
+    - Mario
+*/
+
+@font-face {
+    font-family: 'Mario';
+    src: url(mario-party.ttf);
+}
+
+h1 {
+    color: forestgreen;
+    font-family: 'Mario';
+}
+
+h3 {
+    color: darkred;
+    font-family: 'Mario';
+}
+
+body {
+    background-color: aliceblue;
+    font-family: 'Hiragino Sans GB';
+}
+
+input {
+    font-family: 'Hiragino Sans GB';
+}
+
+.hidden {
+    color: aliceblue;
+}
+
+.topnav {
+    background-color: darkslategrey;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: firebrick;
+}
+
+.topnav a.active {
+    background-color: darkseagreen;
+}
+
+footer {
+    text-align: center;
+}
+
+footer strong {
+    font-family: 'Mario';
+}
