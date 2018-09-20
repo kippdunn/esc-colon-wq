@@ -5,7 +5,9 @@
         <strong>Scottie and Kippernicus Inc.</strong>
     </footer>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="application/javascript"></script>
+    <script src="assets/vendor/popper.min.js" type="application/javascript"></script>
+    <script src="assets/vendor/jQuery/jquery-3.3.1.min.js" type="application/javascript"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js" type="application/javascript"></script>
     <script type="application/javascript">
         $(function() {
             $('#myForm').on('submit', function(e) {
