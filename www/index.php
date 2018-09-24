@@ -1,6 +1,5 @@
 <?php $title = 'Welcome to ESC:wq...glad to have you'; include("templates/header.php"); ?>
 
-<body>
     <center>
         <h1>WELCOME to ESC:wq!</h1>
 
@@ -16,9 +15,8 @@
         <div id="data"></div>
 
         <img src="bear_hands.jpg">
-        
+
     </center>
     <br><br>
-</body>
 
 <?php include("templates/footer.php"); ?>
