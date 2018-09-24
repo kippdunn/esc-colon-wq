@@ -21,7 +21,7 @@ server {
         internal;
     }
     
-    location ~ (index|challenges|about|contact) {
+    location ~ (index|challenges|about|contact|login) {
         try_files $uri.php $uri =404;
         fastcgi_pass unix:/var/run/php/php7.0-fpm.sock;
         fastcgi_split_path_info ^(.+\.php)(/.*)$;
