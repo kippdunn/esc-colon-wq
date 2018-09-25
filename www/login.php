@@ -7,7 +7,7 @@
     <center>
         <form id="credentials">
             <div><input id="username" placeholder="User Name"></div>
-            <div><input id="password" placeholder="Password"></div>
+            <div><input type="password" id="password" placeholder="Password"></div>
         </form>
     <center>
 <body>
