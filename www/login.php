@@ -81,4 +81,5 @@
 	</div>
 </div>
 
+<script src="assets/js/login.js"></script>
 <?php include("templates/footer.php"); ?>
