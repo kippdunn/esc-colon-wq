@@ -6,7 +6,7 @@ server {
 	listen [::]:80;
 
     # Configure www root and indices
-	root /usr/share/nginx/www;
+	root /usr/share/nginx/esc-colon-wq/www;
     index index.php index.html;
     
     # Logs
@@ -17,7 +17,7 @@ server {
     # Error pages
     error_page 404 /404.html;
     location = /404.html {
-        root /usr/share/nginx/www;
+        root /usr/share/nginx/esc-colon-wq/www;
         internal;
     }
     
@@ -35,19 +35,19 @@ server {
     }
 
     location ~ \.(gif|jpg|png)$ {
-        root /usr/share/nginx/www/assets/img;
+        root /usr/share/nginx/esc-colon-wq/www/assets/img;
     }
     
     location ~ \.css$ {
-        root /usr/share/nginx/www/assets/css;
+        root /usr/share/nginx/esc-colon-wq/www/assets/css;
     }
     
     location ~ \.ttf$ {
-        root /usr/share/nginx/www/assets/fonts;
+        root /usr/share/nginx/esc-colon-wq/www/assets/fonts;
     }
 
     location ~ \.ico$ {
-        root /usr/share/nginx/www/assets;
+        root /usr/share/nginx/esc-colon-wq/www/assets;
     }
     
 }
