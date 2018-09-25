@@ -9,6 +9,7 @@ This website runs on the LEMP (Linux, Nginx, MySQL, PHP/Python) stack!
 * * Runs on an AWS EC2 instance
 ### Nginx
 * This webserver was chosen for its simplicity for serving static web-pages
+* [Nginx Documentation](https://nginx.org/en/docs/)
 ### MySQL
 * TBD
 ### PHP
