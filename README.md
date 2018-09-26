@@ -12,8 +12,8 @@ This website runs on the LEMP (Linux, Nginx, MySQL, PHP/Python) stack!
 * [Nginx Documentation](https://nginx.org/en/docs/)
 * **MacOS**
   * `brew install nginx`
-  * Nginx binary linked to /usr/local/bin/nginx
-  * Configs are stored in /usr/local/etc/nginx/servers
+  * Nginx binary linked to `/usr/local/bin/nginx`
+  * Configs are stored in `/usr/local/etc/nginx/servers`
 * **Ubuntu**
   * `sudo apt-get install nginx`
   * Starts by default
