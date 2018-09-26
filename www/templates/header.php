@@ -3,9 +3,6 @@
 
 <head>
     <title><?php echo $title; ?></title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <header>
