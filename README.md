@@ -18,7 +18,7 @@ This website runs on the LEMP (Linux, Nginx, MySQL, PHP/Python) stack!
   * `sudo apt-get install nginx`
   * Starts by default
     * `service nginx (status|start|stop|restart)`
-  * Configs are stored in `/etc/nginx`
+  * Configs are stored in `/etc/nginx/sites-enabled` (sym-link to `sites-available`)
 ### MySQL
 * TBD
 ### PHP
