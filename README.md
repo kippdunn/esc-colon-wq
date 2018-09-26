@@ -10,6 +10,10 @@ This website runs on the LEMP (Linux, Nginx, MySQL, PHP/Python) stack!
 ### Nginx
 * This webserver was chosen for its simplicity for serving static web-pages
 * [Nginx Documentation](https://nginx.org/en/docs/)
+* **MacOS**
+  * `brew install nginx`
+  * Nginx binary linked to /usr/local/bin/nginx
+  * Configs are stored in /usr/local/etc/nginx
 ### MySQL
 * TBD
 ### PHP
