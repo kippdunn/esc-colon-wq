@@ -22,6 +22,9 @@ This website runs on the LEMP (Linux, Nginx, MySQL, PHP/Python) stack!
 ### MySQL
 * TBD
 ### PHP
-* TBD
+* **MacOS**
+  * Located in `/etc/php-fpm.conf` and `/etc/php-fpm.d/www.conf`
+  * Run as daemon with `php-fpm`
+  * Uses `fastcgi_pass 127.0.0.1:9000` in nginx config
 
 ### Made by: Kipp Dunn and Harrison Gertler
